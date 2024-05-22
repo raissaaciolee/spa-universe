@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/pages/all-pages.css">
+    <style>
+        body {
+            background-image: url("/assets/bg01.png");
+        }
+
+        #app {
+            height: 50vh;
+
+            display: grid;
+            place-items: center;
+            text-align: center;
+        }
+
+        button {
+            background-color: transparent;
+            color: var(--text-color);
+
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            border: .2rem solid var(--text-color);
+            border-radius: .5rem;
+
+            padding: 1.2rem 3.2rem;
+            margin-top: 2.4rem;
+            
+            cursor: pointer;
+            transition: transform .5s;
+        }
+
+        button:hover {
+            transform: scale(1.2);
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="app">
+        <div>
+            <h1>Explore o universo</h1>
+    
+            <button>Quero saber mais</button>
+        </div>
+    </div>
+</body>
+</html>
