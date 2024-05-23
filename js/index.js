@@ -2,6 +2,7 @@ import { Router } from "./router.js"
 
 const router = new Router()
 
+router.add("/index.html", "/pages/home.html")
 router.add("/home", "/pages/home.html")
 router.add("/the-universe", "/pages/the-universe.html")
 router.add("/exploration", "/pages/exploration.html")
